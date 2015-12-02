@@ -53,3 +53,57 @@ Edit files.
      # To push the changes back up to github:
      git push
 
+
+Using a feature branch:
+----------------------
+
+A feature branch is a temporary branch for developing a distinct feature
+or bug-fix.  It should exist long enough for development to be finished,
+and then be merged into master and deleted.
+
+In the GUI:
+   Click on the "Branch: master" button and type in the name of your branch.
+
+   # In your terminal:
+   git pull
+   git branch -r
+   git checkout NEW-BRANCH
+   git branch
+
+Or, entirely on the command line:
+
+    git checkout -b NEW-BRANCH
+    git push
+
+Make your changes and commit them locally.  And push them 
+    
+
+Sending a pull request to the original repository:
+-------------------------------------------------
+
+
+
+Syncing a forked repository:
+---------------------------
+
+You can't sync a forked repository from the github gui.  
+You have to use the command line.
+
+    git remote -v
+    # You should only see entries for origin and your own account url
+
+    # Add the original's url as a remote repository:
+    git remote add upstream https://github.com/alijc/git-practice.git
+
+    git remote -v
+    # You should now see entries for origin and upstream
+
+    # Sync the repos
+    git fetch upstream
+    git checkout master
+    git merge upstream/master
+    git push
+
+
+    
+
