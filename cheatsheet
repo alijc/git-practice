@@ -76,15 +76,15 @@ Or, entirely on the command line:
     git push --set-upstream origin NEW-BRANCH
 
 
-Make your changes and commit them locally.
+make your changes and commit them locally.
 And then push them up, to the feature branch on github.
 
 
 Merging the feature branch into master:
 --------------------------------------
 
-Click the "Pull Request" button.  
-Write a meaningful comment and click on "Submit???"
+Click the "Compare and pull request" button.  
+Write a meaningful comment and click on "Create pull request"
 Now you can review the commits and the diffs.
 If all looks good, click on the "Merge pull request" button.
 And "Confirm" it.
