@@ -70,13 +70,31 @@ In the GUI:
    git checkout NEW-BRANCH
    git branch
 
-Or, entirely on the command line:
+Or, entirely on the command line:  ???????
 
     git checkout -b NEW-BRANCH
     git push
 
-Make your changes and commit them locally.  And push them 
-    
+Make your changes and commit them locally.
+And then push them up, to the feature branch on github.
+
+
+Merging the feature branch into master:
+--------------------------------------
+
+Click the "Pull Request" button.  
+Write a meaningful comment and click on "Submit???"
+Now you can review the commits and the diffs.
+If all looks good, click on the "Merge pull request" button.
+And "Confirm" it.
+Then "Delete branch".
+
+On the command line:
+
+   git checkout master
+   git pull
+   git branch -d NEW-BRANCH
+
 
 Sending a pull request to the original repository:
 -------------------------------------------------
