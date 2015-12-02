@@ -70,10 +70,11 @@ In the GUI:
    git checkout NEW-BRANCH
    git branch
 
-Or, entirely on the command line:  ???????
+Or, entirely on the command line:
 
     git checkout -b NEW-BRANCH
-    git push
+    git push --set-upstream origin NEW-BRANCH
+
 
 Make your changes and commit them locally.
 And then push them up, to the feature branch on github.
