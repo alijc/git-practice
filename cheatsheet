@@ -1,0 +1,55 @@
+First steps:
+-----------
+
+		https://help.github.com/articles/set-up-git/
+
+First off, create an account at github.
+
+And install git.  If they come separately, also install the git manpages.
+And git autocomplete comes in handy.
+
+Configure git:
+
+ git config --global user.name "YOUR NAME"
+ git config --global user.email "YOUR EMAIL ADDRESS"
+
+Optionally, put a public key into https://github.com/settings/ssh
+
+
+Fork a repository:
+-----------------
+
+		https://help.github.com/articles/fork-a-repo/
+
+Log into github, then browse to
+
+   https://github.com/alijc/git-practice
+
+and click the Fork button.  You'll end up back in your own account.
+
+
+Clone the repository:
+--------------------
+
+Grab the contents of the clone text widget (beside 'HTTPS' or 'SSH') and,
+in a terminal, type:
+
+   git clone THAT-TEXT
+   cd git-practice
+
+
+Make changes and update your own repository:
+-------------------------------------------
+
+Edit files.  
+
+     # To see what's changed:
+     git status
+
+     # To commit them locally:
+     git commit ANY-MODIFIED-FILES  
+     #(If you created any new files you'll have to "git add" them first.)
+
+     # To push the changes back up to github:
+     git push
+
