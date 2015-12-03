@@ -1,0 +1,18 @@
+Decisions that need to be made:
+------------------------------
+
+Whether to use forked repositories or a central one
+
+Which people should have admin/commit/merge rigts on the central repo?
+
+Whether to use only master as a permanent branch, or to add in maintenance,
+release, qa, development or project branches
+
+Whether to use feature branches
+
+Should a single developer be able to do a pull request AND merge it?
+
+Should there be a mandatory code review?
+
+
+
