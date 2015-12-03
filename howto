@@ -143,10 +143,20 @@ You have to use the command line.
     git push
 
 
+Collaboration:
+-------------
+
+By default, a github repo is created with a single owner, and only that
+person has admin or write rights.  But they can set up others to be
+collaborators.
+
 
 
 Good practices:
 --------------
+
+"git status" is your friend.  It will tell you where you are, and give
+you a good guess about what you should do next.
 
 Commit often.  If your history gets too long you can always collapse it later.
 
