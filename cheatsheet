@@ -100,6 +100,25 @@ On the command line:
 Sending a pull request to the original repository:
 -------------------------------------------------
 
+First, get all of you changes onto the master branch of your fork.
+Then click "New pull request".
+Review your changes, and click "Create pull request".
+Write a comment and click "Create pull request".
+
+The owner of the original repo receives the pull request and
+can 
+
+
+
+Working entirely in the browser:
+-------------------------------
+
+Somewhere along the way github added the ability to create, edit and commit 
+files inside the browser gui. Weird, huh?
+
+You can even browse to someone else's repo and edit one of their files.
+github will magically create a branch in your own fork and then let you
+send a pull request to the owner.
 
 
 Syncing a forked repository:
@@ -124,5 +143,19 @@ You have to use the command line.
     git push
 
 
-    
 
+
+Good practices:
+--------------
+
+Commit often.  If your history gets too long you can always collapse it later.
+
+Push at the end of each coding session.  Or more often.
+
+Pull often, if working on a project with multiple coders, to get their changes.
+At the beginning of each session, and before commits.
+
+Likewise, sync your fork before sending a pull request to the original repo.
+
+Agree on a workflow.  
+Even if it's just you committing, decide on how you want to do it.
