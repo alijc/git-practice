@@ -3,7 +3,7 @@ Decisions that need to be made:
 
 Whether to use forked repositories or a central one
 
-Which people should have admin/commit/merge rigts on the central repo?
+Which people should have admin/commit/merge rights on the central repo?
 
 Whether to use only master as a permanent branch, or to add in maintenance,
 release, qa, development or project branches
